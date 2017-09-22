@@ -1,4 +1,4 @@
-body {
+html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.4;
@@ -21,6 +21,6 @@ img {
 
 
 .container {
-  width: 600px;
+  width: 45rem; /* oder eine Angabe in Pixel (Bsp: 600px)  */
   margin: 0 auto;
 }
