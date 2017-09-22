@@ -4,18 +4,15 @@ html {
   line-height: 1.4;
 }
 
-h1 {
-  font-size: 1.6rem;
-  line-height: 1.2;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  font-size: 1.3rem;
-  line-height: 1.2;
-}
 
 img {
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -23,4 +20,26 @@ img {
 .container {
   width: 45rem; /* oder eine Angabe in Pixel (Bsp: 600px)  */
   margin: 0 auto;
+}
+
+
+p {
+  color: #050505;
+  font-weight: 400;
+  font-size: 1;
+}
+
+
+h1 {
+  color: gray;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
