@@ -4,6 +4,13 @@ html {
   line-height: 1.4;
 }
 
+@media (max-width: 38rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -18,7 +25,8 @@ img {
 
 
 .container {
-  width: 45rem; /* oder eine Angabe in Pixel (Bsp: 600px)  */
+  width: 95%; /* oder eine Angabe in Pixel (Bsp: 600px)  */
+  max-width: 38rem;
   margin: 0 auto;
 }
 
